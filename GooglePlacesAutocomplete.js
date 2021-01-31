@@ -543,7 +543,7 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
   };
 
   const _getRowLoader = () => {
-    return <ActivityIndicator animating={true} size='small' color='black' />;
+    return <ActivityIndicator animating={true} size='small' color='#ffcc00' />;
   };
 
   const _renderRowData = (rowData) => {
